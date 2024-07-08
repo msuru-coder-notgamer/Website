@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(to right, cyan, rgb(0, 180, 9));
+  text-align: right;
+  font-size: 100px;
+  color: white;
+}
+button {
+  width: 175px;
+  height: 154px;
+  font-size: 80px;
+  border-radius: 5px;
+  background-color: rgb(202, 202, 202);
+}
+#calc {
+  border-radius: 20px;
+  background-color: black;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 785px;
+  height: 1008px;
+}
+.nums1-9 {
+  height: 200px;
+  width: 185px;
+}
+.c-d-more {
+  width: 240px;
+  height: 90px;
+  font-size: 60px;
+}
+
+#more {
+    background-color: green;
+    border-width: 6px;
+    border-color: black;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+    visibility: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    transform: translateY(-30vh);
+}
+.more-buttons {
+    width: 200px;
+    height: 130px;
+    font-size: 50px;
+}
+#X {
+    width: 130px;
+    height: 130px;
+    transform: translate(70px, -520px);
+    border-radius: 130px;
+    font-size: 50px;
+}
+.functions {
+    width: 134.5px;
+}
